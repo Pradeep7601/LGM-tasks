@@ -1,0 +1,90 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #68bbe5;
+}
+
+.page{
+    display: flex;
+    flex-direction: row;
+    min-height: 90vh;
+}
+
+.form{
+    width: 40%;
+    min-height: 90vh;
+    margin: 10px;
+    padding: 20px;
+    background-color: #d4e9ff;
+}
+.display{
+    width: 60%;
+    margin: 10px;
+    padding: 20px;
+    background-color: #d4e9ff;
+}
+
+input,select{
+    margin: 10px;
+}
+
+
+input[type=text], input[type=email],
+input[type=number],input[type=date]{
+    width: 60%;
+    padding: 5px;
+}
+select{
+    width: 63%;
+    padding: 5px;
+    margin-left: 40px;
+}
+#email{
+    margin-left: 45px;
+}
+#phone{
+    margin-left: 43px;
+}
+#dob{
+    margin-left: 50px;
+}
+label{
+    font-weight: bold;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+table{
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+tr,th{
+    padding: 5px 20px 5px 20px;
+    
+}
+table th{
+    background-color: #62659e;
+    color: white;
+}
+td{
+    background-color: #e3e3f5;
+    padding: 5px;
+}
+#sbtn, #cbtn {
+    background-color: #4e53a5;
+    color: white;
+    padding: 10px 15px;
+    margin: 15px 0;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+    border-radius: 6px;
+}
+
+#sbtn:hover, #cbtn:hover{
+    background-color: #102b6e;
+}

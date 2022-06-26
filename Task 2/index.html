@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <div class="page">
+        <div class="form">
+            <h2>Registration Form</h2>
+
+            <label for="fname">First Name :</label>
+            <input type="text" placeholder="Enter your first name" name="fn" id="fname" required><br>
+
+            <label for="lname">Last Name :</label>
+            <input type="text" placeholder="Enter your last name" name="ln" id="lname" required><br>
+
+            <label for="email">Email :</label>
+            <input type="email" placeholder="Enter email" name="email" id="email" required><br>
+
+            <label for="phone">Phone :</label>
+            <input type="number" placeholder="Enter Phone no" name="phone" id="phone" required><br>
+
+            <label for="dob">DOB :</label>
+            <input type="date" placeholder="Enter DOB" name="dob" id="dob" required><br>
+
+            <label>Gender</label>
+            <select name="Gender" id="gender" placeholder="" required>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+            </select> <br>
+
+            <label>Branch</label>
+            <select name="branch" id="branch" placeholder="" required>
+                <option value="Computer Science">Computer Science</option>
+                <option value="Information Scince">Information Scince</option>
+                <option value="Electronics">Electronics</option>
+                <option value="Mechanical">Mechanical</option>
+            </select> <br>
+
+            <button id="sbtn" value="Submit" onclick="AddRow()">Submit</button>
+            <input type="reset" id="cbtn" value="Clear">
+        </div>
+
+        <div class="display">
+            <h2>Student Details</h2>
+            <table border="1" id="show">
+                <thead>
+                    <tr>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th> Email</th>
+                        <th> Phone</th>
+                        <th> DOB</th>
+                        <th> Gender</th>
+                        <th> Branch</th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+    </div>
+
+</body>
+
+</html>
